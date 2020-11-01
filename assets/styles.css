@@ -1,0 +1,50 @@
+*,
+html,
+body {
+  margin: 0;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+@media (min-width: 960px) {
+  .wrapper1 {
+    display: flex;
+  }
+
+  .first_half {
+    width: 50%;
+    height: 100vh;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/23139730/thumb/4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: large;
+    text-align: center;
+    position: fixed;
+  }
+  .bk {
+    background-color: rgba(32, 35, 38, 0.8);
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+  .scnd_half {
+    margin-left: 50%;
+    padding: 20px;
+  }
+  .image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    width: 100%;
+  }
+  h1 {
+    padding: 30px;
+  }
+  .first_half p {
+    padding: 30px;
+  }
+}
